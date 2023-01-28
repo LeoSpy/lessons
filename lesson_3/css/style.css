@@ -1,0 +1,62 @@
+@import url('reset.css');
+/* ----------------- */
+
+h1,
+h2,
+h3 {
+	color: rgb(236, 179, 188);
+}
+a {
+	color: blueviolet;
+}
+p {
+	color: rgb(94, 140, 3);
+}
+/* HEADER */
+header p {
+	color: green;
+}
+
+.header-container h1 {
+	color: rgb(12, 173, 247);
+}
+.header-content ul li a{
+	color: rgb(224, 165, 175);
+}
+.header-content + p {
+	color: rgb(126, 7, 122);
+}
+.link-anchor a {
+	color: rgb(0, 84, 56);
+}
+
+/* MAIN */
+
+.subtitle-text ~ p {
+	color: rgb(215, 225, 13);
+}
+
+.text-block.leson p {
+	color: rgb(85, 85, 47);
+}
+#suptitle{
+	color: rgb(161, 97, 3);
+}
+.text span {
+	color: rgb(91, 31, 41);
+}
+/* FOOTER */
+.footer > p {
+	color:rgb(85, 85, 47)
+}
+
+div.footer p {
+	color: blue;
+}
+
+
+
+
+
+
+
