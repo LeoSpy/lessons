@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia+Sans:regular,500,700,italic,500italic,700italic);
+@import url('fonts.css');
+@import url('reset.css');
+/* ----------------- */
+body {
+	font-family: 'Inconsolata', sans-serif;
+	font-weight: 400;
+	color: #000;
+	line-height: 1.5;
+}
+/* HEADER */
+.header-block {
+	text-align: center;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: 'Sofia Sans', sans-serif; 
+	color: rgb(244, 127, 146);
+	font-size: 40px;
+	font-weight: 700;
+	word-spacing: 10px;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.header-block span {
+	color: rgba(0, 0, 0, 0.466);
+}
+
+/* ========= */
+
+h2{	
+	font-family: 'Poppins', sans-serif;
+	color: rgb(199, 39, 169);
+	font-weight: 600;
+	font-size: 32px;
+	text-decoration: underline;
+	text-align: center;
+}
+.block-one {
+	font-family: 'Sofia Sans', serif; 
+	font-size: 18px;
+	font-weight: 500;
+}
+.block-one li {
+	color: red;
+	text-decoration: underline;
+	text-align: right;
+	font-style: italic;
+}
+.block-text-one p {
+	text-align: right;
+}
+.block-text-one ~ p {
+	color: rgb(118, 134, 31);
+}
+
+.block-three {
+	text-align: center;
+}
+.text-through {
+	text-decoration: line-through;
+}
+.block-four {
+	text-align: right;
+}
+.block-four p {
+	letter-spacing: 2px;
+}
+
+.text-four + p {
+	color: rgb(126, 35, 122);
+	text-shadow: 2px 2px 2px rgb(76, 22, 73);
+	text-decoration: overline;
+}
+
+.block-five p {
+	text-shadow: 1px 1px 2px rgb(36, 36, 36);
+	text-indent: 30px;
+}
