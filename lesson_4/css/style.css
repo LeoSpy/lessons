@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Sofia+Sans:regular,500,700,italic,500italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Sofia+Sans:regular,500,700);
 @import url('fonts.css');
 @import url('reset.css');
 /* ----------------- */
 body {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Inconsolata', sans-serif, 'Aria', sans-serif;
 	font-weight: 400;
 	color: #000;
 	line-height: 1.5;
@@ -27,6 +27,12 @@ h3 {
 }
 .header-block span {
 	color: rgba(0, 0, 0, 0.466);
+}
+.header-block li {
+	font-family: 'Poppins', serif;
+	text-align: right;
+	color: pink;
+	text-decoration: underline;
 }
 
 /* ========= */
