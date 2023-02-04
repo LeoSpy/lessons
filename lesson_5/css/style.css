@@ -1,0 +1,112 @@
+@import url('reset.css');
+/* ----------------- */
+
+body {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.8;
+	font-size: 14px;
+	font-weight: 300;
+	color: #6C757D;
+}
+
+/* Header */
+h1 {
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #000;
+}
+.list li {
+	list-style: outside;
+}
+.link-nav {
+	color: rgb(167, 21, 21);
+	text-decoration: underline;
+}
+/* MAIN */
+.block-one {
+	margin-bottom: 80px;
+}
+.block {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 836px;
+}
+
+.title-block-one {
+
+}
+.title-block-one h2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #212529;
+	max-width: 400px;
+}
+
+.text-block {
+	margin-bottom: 36px;
+}
+
+.img-desert {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.img-desert img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.block-two {
+
+}
+.title-block-two {
+	margin-bottom: 120px;
+}
+.title-block-two h2 {
+	margin-bottom: 40px;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #212529;
+	max-width: 605px;
+}
+
+.images{
+	font-size: 0;
+	text-align: center;
+	display: block;
+	margin: 0 auto 80px;
+	max-width: 1260px;
+}
+.images img {
+	display: inline-block;
+}
+.img-one {
+	margin-right: 30px;
+}
+.text {
+	overflow: scroll;
+	height: 150px;
+}
+/* ------------- */
+
+.footer-block {
+	
+}
+.footer-block h4 {
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+.footer-block a {
+	color: red;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-decoration: underline;
+}
