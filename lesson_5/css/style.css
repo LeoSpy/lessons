@@ -10,8 +10,10 @@ body {
 }
 
 /* Header */
-h1 {
+header {
 	margin-top: 30px;
+}
+h1 {
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 1.6;
@@ -25,6 +27,9 @@ h1 {
 	text-decoration: underline;
 }
 /* MAIN */
+main {
+	margin-bottom: 120px;
+}
 .block-one {
 	margin-bottom: 80px;
 }
@@ -38,7 +43,6 @@ h1 {
 
 }
 .title-block-one h2 {
-	margin-top: 40px;
 	margin-bottom: 40px;
 	font-size: 25px;
 	font-weight: 700;
@@ -64,7 +68,7 @@ h1 {
 
 }
 .title-block-two {
-	margin-bottom: 120px;
+	
 }
 .title-block-two h2 {
 	margin-bottom: 40px;
@@ -77,10 +81,9 @@ h1 {
 
 .images{
 	font-size: 0;
-	text-align: center;
 	display: block;
 	margin: 0 auto 80px;
-	max-width: 1260px;
+	max-width: 1240px;
 }
 .images img {
 	display: inline-block;
