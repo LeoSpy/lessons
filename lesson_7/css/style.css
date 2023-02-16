@@ -39,6 +39,9 @@ body {
 	margin-bottom: 15px;
 }
 /* MAIN */
+main {
+	margin-bottom: 80px;
+}
 .artical-main-one {
 	font-family: 'Inter', sans-serif;
 	background:  linear-gradient(115deg, rgba(244, 247, 255, 0) 63%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%), linear-gradient(115deg, rgba(244, 247, 255, 0) 68%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%) #f4f7ff;
@@ -132,4 +135,23 @@ li {
 
 .items-six li {
 	background: url('../img/svg/star.svg') 0 0 no-repeat;
+}
+/* FOOTER */
+footer {
+	padding-bottom: 80px;
+}
+.footer-title{
+	font-size: 25px;
+	line-height: 1.2;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.link {
+	margin-bottom: 10px;
+}
+.link a {
+	color: red;
+	text-decoration: underline;
+	font-size: 20px;
 }
