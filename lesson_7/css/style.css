@@ -21,9 +21,11 @@ body {
 .artical-header {
 	background: url('../img/vence/vence-bg.jpg') center / cover no-repeat;
 	min-height: 600px;
+	padding-top: 330px;
+	padding-bottom: 100px;
 }
 .content-vence {
-	padding-top: 330px;
+	
 }
 .content-vence p {
 	color: rgba(229, 229, 229, 0.8)
@@ -49,12 +51,14 @@ main {
 	background-position: 50%;
 	min-height: 560px;
 	color: #637381;
+	padding-top: 145px;
+	padding-bottom: 145px;
 }
 .content-tailgrids {
 	display: inline-block;
 	max-width: 570px;
-	padding-top: 145px;
 	margin-right: 179px;
+	margin-top: 60px;
 }
 .content-tailgrids h3 {
 	color: #3056D3;
@@ -91,7 +95,6 @@ main {
 .speakers-img {
 	display: inline-block;
 	max-width: 100%;
-	padding-top: 81px;
 }
 
 /* ================= */
