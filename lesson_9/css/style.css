@@ -1,0 +1,80 @@
+@import url('reset.css');
+@import url(https://fonts.googleapis.com/css?family=Khula:regular,700&display=swap);
+/* ----------------- */
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body {
+	font-family: 'Khula', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.2;
+	color: rgb(0, 0, 0);
+}
+header {
+	background: rgb(125, 14, 228);
+	padding-top: 50px;
+}
+.svg-icons {
+	
+}
+.title {
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.icons-svg {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.icons-svg img {
+	margin: 20px;
+}	
+
+
+.bg-block-one {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: rgb(246, 84, 251);
+}
+.content-svg {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.content-svg img {
+	margin: 20px;
+}
+
+
+.bg-block-two {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: rgb(174, 28, 223);
+}
+
+.main__container {
+}
+.designer-content img {
+	margin: 20px;
+}
+
+
+
+.bg-footer {
+	background: rgb(23, 232, 176);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.content-img {
+}
+.img-content img {
+	margin: 10px;
+}
+.elli {
+	border-radius: 50%;
+}
