@@ -1,0 +1,110 @@
+@import url('reset.css');
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+/* ----------------- */
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #212529;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/* ============= */
+.header {
+}
+.header_margin-buttom {
+	margin-bottom: 37px;
+}
+.header__container {
+}
+
+.header__logo {
+}
+
+.header__pages {
+}
+.header__items {
+}
+.menu-items {
+}
+.menu-items_active {
+}
+.menu-items__link {
+}
+
+.social-networks {
+}
+.social-networks__items {
+}
+.social-networks__item {
+}
+.social-networks__link {
+}
+
+.header__search {
+}
+
+
+
+/* ====================== */
+.page-main_margin-bt {
+	margin-bottom: 100px;
+}
+
+.main-header {
+}
+.header-main {
+	margin-bottom: 100px;
+}
+
+.main-header__container {
+}
+.main-header__content {
+}
+
+.main-header__image-big {
+}
+.main-header__suptitle {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.6; /* 20/12 */
+	color: #000;
+}
+.main-header__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6; /* 40/25 */
+	color: #000;
+}
+.main-header__slider {
+}
+
+
+
+
+.section-body {
+}
+.section-body__container {
+}
+.desc-block {
+}
+.desc-block__title {
+}
+.desc-block__list {
+}
+.desc-block__items {
+}
+.desc-block__item {
+}
+.desc-block__item_active {
+}
+
+
+.design_margin-bt {
+	margin-bottom: 100px;
+}
