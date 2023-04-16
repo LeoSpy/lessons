@@ -98,10 +98,10 @@ main {
 	padding-bottom: 60px;
 }
 
-.page__minimalist {
+.page-minimalist {
 }
 .minimalist-page-header {
-
+	margin-bottom: 100px;
 }
 
 .minimalist-page-header__content {
@@ -128,53 +128,57 @@ main {
 	max-width: 100%;
 }
 /* -------------------- */
-.page__minimalist__content {
+.minimalist-content {
 	margin-bottom: 82px;
 }
-.minimalist-content {
+.content-minimalist {
 	display: flex;
 	column-gap: 31px;
 }
 
-.minimalist-content__design > * :not(:last-child) {
+.content-minimalist__design > * :not(:last-child) {
 	margin-bottom: 24px;
 }
-.minimalist-content__project > * :not(:last-child) {
+.content-minimalist__project > * :not(:last-child) {
 	margin-bottom: 24px;
 }
-.minimalist-content__project {
+.content-minimalist__project {
 	flex: 0 1 50%
 }
-.minimalist-content__text-project {
+.content-minimalist__text-project {
 	margin-bottom: 60px;
 }
-.minimalist-content__author > span:nth-child(1) {
+.content-minimalist__author > span:nth-child(1) {
 	margin-right: 80px;
 }
 
-.minimalist-content__design {
+.content-minimalist__design {
 	flex: 0 1 50%
 }	
-.minimalist-content__text {
+.content-minimalist__text {
 	margin-bottom: 30px;
 }
 
 /* ------------------------- */
-.page__minimalist__image {
-	margin-bottom: 100px;
-}
 .minimalist-image {
+	
+}
+.image-minimalist {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 32px;
+	margin: 0 -16px;
+	row-gap: 32px;
 }
-.minimalist-image > .minimalist-image__box {
-	flex: 0 1 584px;
+.image-minimalist__box {
+	flex: 0 1 50%;
 }
-.minimalist-image__box:nth-child(3) {
+.image-minimalist__box {
+	padding: 0 16px;
+}
+.image-minimalist__box_big {
 	flex: 0 1 auto;
 }
-.minimalist-image__box > img{
+.image-minimalist__box > img{
 	max-width: 100%;
 }
 
@@ -206,29 +210,30 @@ main {
 
 
 .servises__content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
 }
 .content-servises {
 }
 .content-servises__items {
 	display: flex;
-	column-gap: 20px;
-	justify-content: space-between;
+	column-gap: 120px;
 }
 .content-servises__image {
-	flex: 0 1 500px;
-	max-height: 365px;
+	flex: 0 1 68%;
 }
 .content-servises__image img {
 	max-width: 100%;
 }
 
-.box-servises-content {
+.content-servises__box {
 	display: flex;
 	flex-direction: column;
 	row-gap: 20px;
-	flex: 0 1 300px;
 }
-.content-servises__box {
+.box-servises-content {
+	flex: 0 1 32%;
 	align-self: center;
 }
 .box-servises-content__title {
@@ -236,6 +241,7 @@ main {
 	font-size: 24px;
 	line-height: 1.4;
 	color: #333333
+	
 }
 .box-servises-content__text {
 }
