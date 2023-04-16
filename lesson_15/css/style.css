@@ -1,0 +1,241 @@
+@import url('reset.css');
+@import url('comon.css');
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap);
+/* ----------------- */
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #9C9C9C;
+
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 0;
+}
+
+/* --------HEADER----------- */
+.header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 15px;
+	flex-wrap: wrap;
+}
+
+.header__logo {
+}
+.logo-header {
+}
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.menu-header {
+	column-gap: 74px;
+	row-gap: 20px;
+}
+.list-menu-header {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 74px;
+	row-gap: 15px;
+	
+}
+.list-menu-header__item {
+}
+.list-menu-header__link {
+	color: #333333;
+	font-size: 16px;
+	line-height: 1.5; /* 24/16 */
+}
+.list-menu-header__link:hover {
+	font-weight: 600;
+	transition: font-weight .3s ease;
+}
+.list-menu-header__link_active {
+	font-weight: 600;
+}
+
+.menu-header__contacts {
+	padding: 14px 32px;
+	background-color: #2C3878;
+	color: #fff;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5; /* 21/14 */
+	transition: all .4s ease;
+}
+.menu-header__contacts:hover {
+	text-decoration: underline;
+	background-color: #1f285a;
+	transform: translate(0, 5px);
+	box-shadow: 0px 0px 5px #9C9C9C;
+}
+/* ---------MAIN----------- */
+.page {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.page__minimalist {
+}
+.minimalist-page-header {
+
+}
+
+.minimalist-page-header__content {
+	margin-bottom: 100px;
+}
+.minimalist-page-header__content > *:not(:last-child) {
+	margin-bottom: 40px;
+}
+.minimalist-page-header__title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.4;
+	color: #000;
+}
+.minimalist-page-header__text {
+	text-align: center;
+	line-height: 1.6;
+	color: #000;
+	max-width: 518px;
+	margin: 0 auto;
+}
+.minimalist-page-header__image {
+	max-width: 100%;
+}
+/* -------------------- */
+.page__minimalist__content {
+	margin-bottom: 82px;
+}
+.minimalist-content {
+	display: flex;
+	column-gap: 31px;
+}
+
+.minimalist-content__design > * :not(:last-child) {
+	margin-bottom: 24px;
+}
+.minimalist-content__project > * :not(:last-child) {
+	margin-bottom: 24px;
+}
+.minimalist-content__project {
+	flex: 0 1 50%
+}
+.minimalist-content__text-project {
+	margin-bottom: 60px;
+}
+.minimalist-content__author > span:nth-child(1) {
+	margin-right: 80px;
+}
+
+.minimalist-content__design {
+	flex: 0 1 50%
+}	
+.minimalist-content__text {
+	margin-bottom: 30px;
+}
+
+/* ------------------------- */
+.page__minimalist__image {
+	margin-bottom: 100px;
+}
+.minimalist-image {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+.minimalist-image > .minimalist-image__box {
+	flex: 0 1 584px;
+}
+.minimalist-image__box:nth-child(3) {
+	flex: 0 1 auto;
+}
+.minimalist-image__box > img{
+	max-width: 100%;
+}
+
+/* ------------------------ */
+.page__servises {
+}
+
+.servises {
+}
+.servises__title {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 150%;
+	color: #000;
+	position: relative;
+	margin-bottom: 40px;
+}
+.servises__title::before {
+	content: '';
+	display: block;
+	width: 464px;
+	height: 2px;
+	background-color: #000;
+	position: absolute;
+	left: 12%;
+	top: 40%;
+}
+
+
+
+.servises__content {
+}
+.content-servises {
+}
+.content-servises__items {
+	display: flex;
+	column-gap: 20px;
+	justify-content: space-between;
+}
+.content-servises__image {
+	flex: 0 1 500px;
+	max-height: 365px;
+}
+.content-servises__image img {
+	max-width: 100%;
+}
+
+.box-servises-content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	flex: 0 1 300px;
+}
+.content-servises__box {
+	align-self: center;
+}
+.box-servises-content__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.4;
+	color: #333333
+}
+.box-servises-content__text {
+}
